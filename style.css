@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  background: url(Images/Background.jpg) bottom center no-repeat;
+  background-size: cover;
+}
+
+
+div#page {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+div.buttons {
+  background-color: rgba(0,0,0,0.4);
+
+  font-size: 1.5rem;
+  text-shadow: 0 0 .5rem rgba(253, 253, 54, 0.836);
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: .2rem solid black;
+  border-radius: .5rem;
+
+  width: 7rem;
+  height: 7rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.efects {
+  transform: scale(1.1);
+  border: 1px solid #ffc600;
+  box-shadow: 0 0 1rem #fce286d7;
+}
