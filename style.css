@@ -6,43 +6,47 @@
 
 :root {
   font-size: 62.5%;
-  background: url(Images/Background.jpg) bottom center no-repeat;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(Images/Background.jpg);
+  background-position: bottom center;
   background-size: cover;
 }
 
-
 div#page {
-  display: flex;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
+
+  display: flex;
   gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
-div.buttons {
-  background-color: rgba(0,0,0,0.4);
-
-  font-size: 1.5rem;
-  text-shadow: 0 0 .5rem rgba(253, 253, 54, 0.836);
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  border: .2rem solid black;
-  border-radius: .5rem;
+div.teclas {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid black;
+  border-radius: .4rem;
 
   width: 7rem;
   height: 7rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 
   display: flex;
   flex-direction: column;
-  gap: .2rem;
+  gap: .3rem;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+
+  color: white;
+  text-shadow: 0rem 0rem .5rem rgb(218,165,32);
+  
+  transition: all 0.3s ease;
 }
 
-.efects {
+.estiloTecla {
   transform: scale(1.1);
-  border: 1px solid #ffc600;
-  box-shadow: 0 0 1rem #fce286d7;
+  box-shadow: 0 0 1rem #ffc600;
 }
